@@ -1,23 +1,86 @@
 html { 
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: #28292A;
+    font-family: 'Poppins';
+    
 }
 
 .topnav {
-    background-color: blue;
+    background-color: rgba(60, 64, 67, 0.5);
     overflow: hidden;
     position: fixed;
     top: 0;
-    l
+    left: 0;
+    width: 100%;
+    height: 50px; 
+    display: flex; 
+    align-items: center; /* Vertically centers items in the navbar */
+    justify-content: center; /* Horizontally centers the links in the navbar */
 }
 
 .topnav a {
-float: right;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0 16px; /* Adds horizontal spacing between links */
+    display: flex; /* Makes the link a flex container */
+    align-items: center; /* Vertically centers text inside the link */
+    justify-content: center; /* Ensures text is horizontally centered within each link */
+    height: 100%;
+}
+
+.fullscreen {
+   height: 100vh;
+background-size: cover;
+background-position: center;
+position: relative;
 
 }
 
+.overlay-text {
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+  }
+
+.overlay-top {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.overlay-middel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.overlay-bottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+}
