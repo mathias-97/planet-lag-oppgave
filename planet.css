@@ -1,3 +1,23 @@
 html { 
-    scroll-behavior: smooth; 
-    }
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+.topnav {
+    background-color: blue;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    l
+}
+
+.topnav a {
+float: right;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+
+}
+
