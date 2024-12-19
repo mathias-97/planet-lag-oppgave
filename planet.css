@@ -74,46 +74,6 @@ html {
     flex-direction: column;
 
 }
-.overlay-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    color: white;
-    position: absolute; 
-    transform: translate(-50%, -50%);
-}
-
-
-.overlay-middel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    color: white;
-    position: absolute; 
-    transform: translate(-50%, -50%);
-}
-
-
-.overlay-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    color: white;
-    position: absolute; 
-    transform: translate(-50%, -50%);
-}
 
 .overlay-text {
     top: 50%;
