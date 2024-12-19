@@ -30,57 +30,112 @@ html {
 }
 
 .fullscreen {
-   height: 100vh;
-background-size: cover;
-background-position: center;
-position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.section1 {
+    background-image: url('The_new_Solar_System.jpg');
+}
+
+.section2 {
+    background-image: url('pluto.jpg');
+}
+
+.section3 {
+    background-image: url('surface.jpg');
+}
+
+.overlay-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .overlay-text {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    color: white;
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+
+}
+.overlay-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    position: absolute; 
+    transform: translate(-50%, -50%);
+}
+
+
+.overlay-middel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    position: absolute; 
+    transform: translate(-50%, -50%);
+}
+
+
+.overlay-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    position: absolute; 
+    transform: translate(-50%, -50%);
+}
+
+.overlay-text {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    color: white;
-  }
+}
 
 .overlay-top {
-    position: absolute;
     top: 20%;
     left: 20%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    color: white;
 }
 
 .overlay-middel {
-    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    color: white;
 }
 
 .overlay-bottom {
-    position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    color: white;
+}
+
+p {
+    font-size: 16px;
+    padding: 
 }
