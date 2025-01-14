@@ -70,3 +70,15 @@ body, html {
 p {
     font-size: 16px;
 }
+
+.footer {
+    position: bottom;
+    padding: 0.5rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
